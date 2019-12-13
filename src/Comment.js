@@ -1,1 +1,15 @@
 //your code here
+import React, { Component } from 'react';
+
+class Comment extends Component {
+  render() {
+    return (
+      <div className="Comm">
+          
+        </div>
+    );
+  }
+}
+
+export default Comment;
+
