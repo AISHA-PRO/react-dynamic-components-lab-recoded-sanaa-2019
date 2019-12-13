@@ -10,6 +10,7 @@ if(opa> 0.2)
       <div className="color-box" style={{opacity: 2}}>
         {/* your conditional code here! */}
         <div className="color-box" style={{opacity: this.props.opacity}}>
+          <ColorBox opacity={opa-.1} />
         </div>
       </div>
     )
